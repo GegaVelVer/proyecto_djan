@@ -1,6 +1,6 @@
 set -o errexit
 
-pip install -r ./django-porfolio/requirements.txt
+pip install -r ./requirements.txt
 
-python ./django-porfolio/manage.py collectstatic --no-input
-python ./django-porfolio/manage.py migrate
+python ./manage.py collectstatic --no-input
+python ./manage.py migrate
